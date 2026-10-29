@@ -1,0 +1,113 @@
+{
+  "run_id": "d77e870d-ac89-4680-a7c0-c99cbc069238",
+  "status": "limit_reached",
+  "proposal": null,
+  "decision_steps": 1,
+  "tool_calls": 1,
+  "trace": [
+    {
+      "timestamp_utc": "2026-10-29T07:56:48.513500+00:00",
+      "run_id": "d77e870d-ac89-4680-a7c0-c99cbc069238",
+      "model_kind": "real_model",
+      "phase": "model",
+      "step": 1,
+      "status": "success",
+      "action": "search_documents",
+      "arguments": {
+        "query": "年假 申请 提前多久"
+      },
+      "call_id": "call_1218ff1732844200ad576c29"
+    },
+    {
+      "timestamp_utc": "2026-10-29T07:56:48.515499+00:00",
+      "run_id": "d77e870d-ac89-4680-a7c0-c99cbc069238",
+      "model_kind": "real_model",
+      "phase": "tool",
+      "step": 1,
+      "name": "search_documents",
+      "arguments": {
+        "query": "年假 申请 提前多久"
+      },
+      "status": "success",
+      "result": {
+        "status": "success",
+        "query": "年假 申请 提前多久",
+        "scope": null,
+        "hits": [
+          {
+            "doc_id": "D03",
+            "section_id": "D03-S1",
+            "title": "正式员工休假申请办法（合成资料）",
+            "version_date": "2026-05-01",
+            "scope": "正式员工",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "正式员工申请年假，应至少提前3个工作日提交申请。",
+            "score": 0.4667
+          },
+          {
+            "doc_id": "D04",
+            "section_id": "D04-S1",
+            "title": "实习生请假办法（合成资料）",
+            "version_date": "2026-05-10",
+            "scope": "实习生",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "年假申请办法不适用于实习生。实习生申请事假，应至少提前1个工作日提交申请。",
+            "score": 0.4
+          },
+          {
+            "doc_id": "D06",
+            "section_id": "D06-S1",
+            "title": "正式员工出差申请办法（合成资料）",
+            "version_date": "2026-03-01",
+            "scope": "正式员工",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "正式员工提交出差申请，应至少提前2个工作日。",
+            "score": 0.3333
+          },
+          {
+            "doc_id": "D07",
+            "section_id": "D07-S1",
+            "title": "实习生出差申请办法（合成资料）",
+            "version_date": "2026-03-01",
+            "scope": "实习生",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "实习生提交出差申请，应至少提前5个工作日。",
+            "score": 0.3333
+          },
+          {
+            "doc_id": "D10",
+            "section_id": "D10-S1",
+            "title": "会议室预约办法（合成资料）",
+            "version_date": "2026-06-20",
+            "scope": "全体员工",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "员工预约会议室，应至少提前1个工作日提交申请。",
+            "score": 0.2667
+          }
+        ],
+        "error": null
+      },
+      "next_action": "limit_reached"
+    },
+    {
+      "timestamp_utc": "2026-10-29T07:56:48.516499+00:00",
+      "run_id": "d77e870d-ac89-4680-a7c0-c99cbc069238",
+      "model_kind": "real_model",
+      "phase": "run_end",
+      "status": "limit_reached",
+      "decision_steps": 1,
+      "tool_calls": 1
+    }
+  ],
+  "error": null,
+  "answer": "",
+  "citations": [],
+  "conflicts": [],
+  "missing_info": [],
+  "trace_path": "C:\\Users\\Admin\\Desktop\\研究生事务\\小影-笔试\\examples\\S08-trace.jsonl"
+}

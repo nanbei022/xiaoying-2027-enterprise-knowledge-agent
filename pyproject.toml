@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "enterprise-knowledge-agent"
+version = "0.1.0"
+description = "Source-grounded enterprise knowledge QA agent"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2,<3",
+    "langchain>=1,<2",
+    "langgraph>=1,<2",
+    "langchain-openai>=1,<2",
+    "python-dotenv>=1,<2",
+]
+
+[project.scripts]
+knowledge-agent = "knowledge_agent.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/knowledge_agent"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest-temp"

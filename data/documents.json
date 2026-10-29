@@ -1,0 +1,162 @@
+[
+  {
+    "doc_id": "D01",
+    "title": "费用报销制度（合成资料 A）",
+    "version_date": "2026-06-01",
+    "scope": null,
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D01-S1",
+        "text": "员工应在费用发生后30个自然日内提交报销申请。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D02",
+    "title": "费用报销制度（合成资料 B）",
+    "version_date": "2026-07-15",
+    "scope": null,
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D02-S1",
+        "text": "员工应在费用发生后15个自然日内提交报销申请。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D03",
+    "title": "正式员工休假申请办法（合成资料）",
+    "version_date": "2026-05-01",
+    "scope": "正式员工",
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D03-S1",
+        "text": "正式员工申请年假，应至少提前3个工作日提交申请。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D04",
+    "title": "实习生请假办法（合成资料）",
+    "version_date": "2026-05-10",
+    "scope": "实习生",
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D04-S1",
+        "text": "年假申请办法不适用于实习生。实习生申请事假，应至少提前1个工作日提交申请。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D05",
+    "title": "办公设备故障申报办法（合成资料）",
+    "version_date": "2026-04-20",
+    "scope": "全体员工",
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D05-S1",
+        "text": "办公设备发生故障时，员工应通过服务台工单系统提交维修申请，并填写设备编号和故障描述。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D06",
+    "title": "正式员工出差申请办法（合成资料）",
+    "version_date": "2026-03-01",
+    "scope": "正式员工",
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D06-S1",
+        "text": "正式员工提交出差申请，应至少提前2个工作日。"
+      },
+      {
+        "section_id": "D06-S2",
+        "text": "正式员工的出差申请应填写目的地和预计费用。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D07",
+    "title": "实习生出差申请办法（合成资料）",
+    "version_date": "2026-03-01",
+    "scope": "实习生",
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D07-S1",
+        "text": "实习生提交出差申请，应至少提前5个工作日。"
+      },
+      {
+        "section_id": "D07-S2",
+        "text": "实习生的出差申请须经带教导师确认。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D08",
+    "title": "示例剪辑器桌面版产品问答 V1（合成资料）",
+    "version_date": "2026-02-01",
+    "scope": "示例剪辑器桌面版",
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D08-S1",
+        "text": "示例剪辑器桌面版 V1 仅支持导出 MP4 格式的视频。"
+      },
+      {
+        "section_id": "D08-S2",
+        "text": "示例剪辑器桌面版 V1 的默认导出分辨率为720p。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D09",
+    "title": "示例剪辑器桌面版产品问答 V2（合成资料）",
+    "version_date": "2026-08-01",
+    "scope": "示例剪辑器桌面版",
+    "priority": null,
+    "supersedes": ["D08"],
+    "sections": [
+      {
+        "section_id": "D09-S1",
+        "text": "示例剪辑器桌面版 V2 支持导出 MP4 和 MOV 格式的视频。"
+      },
+      {
+        "section_id": "D09-S2",
+        "text": "示例剪辑器桌面版 V2 暂不支持导出 WebM 格式的视频。"
+      }
+    ]
+  },
+  {
+    "doc_id": "D10",
+    "title": "会议室预约办法（合成资料）",
+    "version_date": "2026-06-20",
+    "scope": "全体员工",
+    "priority": null,
+    "supersedes": [],
+    "sections": [
+      {
+        "section_id": "D10-S1",
+        "text": "员工预约会议室，应至少提前1个工作日提交申请。"
+      },
+      {
+        "section_id": "D10-S2",
+        "text": "取消会议室预约，应至少在会议开始前2小时操作。"
+      }
+    ]
+  }
+]

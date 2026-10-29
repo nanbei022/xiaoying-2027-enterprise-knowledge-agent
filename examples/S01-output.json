@@ -1,0 +1,220 @@
+{
+  "run_id": "68c336a5-1860-403c-900e-3ee3b494ef6e",
+  "status": "completed",
+  "proposal": {
+    "status": "completed",
+    "answer": "正式员工申请年假，应至少提前3个工作日提交申请。",
+    "citations": [
+      {
+        "doc_id": "D03",
+        "section_id": "D03-S1",
+        "quote": "正式员工申请年假，应至少提前3个工作日提交申请。"
+      }
+    ],
+    "conflicts": [],
+    "missing_info": []
+  },
+  "decision_steps": 3,
+  "tool_calls": 2,
+  "trace": [
+    {
+      "timestamp_utc": "2026-10-29T07:56:26.097896+00:00",
+      "run_id": "68c336a5-1860-403c-900e-3ee3b494ef6e",
+      "model_kind": "real_model",
+      "phase": "model",
+      "step": 1,
+      "status": "success",
+      "action": "search_documents",
+      "arguments": {
+        "query": "年假 提前申请 天数"
+      },
+      "call_id": "call_4f91ac4cf06d47daa4c2bf5f"
+    },
+    {
+      "timestamp_utc": "2026-10-29T07:56:26.099902+00:00",
+      "run_id": "68c336a5-1860-403c-900e-3ee3b494ef6e",
+      "model_kind": "real_model",
+      "phase": "tool",
+      "step": 1,
+      "name": "search_documents",
+      "arguments": {
+        "query": "年假 提前申请 天数"
+      },
+      "status": "success",
+      "result": {
+        "status": "success",
+        "query": "年假 提前申请 天数",
+        "scope": null,
+        "hits": [
+          {
+            "doc_id": "D03",
+            "section_id": "D03-S1",
+            "title": "正式员工休假申请办法（合成资料）",
+            "version_date": "2026-05-01",
+            "scope": "正式员工",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "正式员工申请年假，应至少提前3个工作日提交申请。",
+            "score": 0.4667
+          },
+          {
+            "doc_id": "D04",
+            "section_id": "D04-S1",
+            "title": "实习生请假办法（合成资料）",
+            "version_date": "2026-05-10",
+            "scope": "实习生",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "年假申请办法不适用于实习生。实习生申请事假，应至少提前1个工作日提交申请。",
+            "score": 0.4
+          },
+          {
+            "doc_id": "D06",
+            "section_id": "D06-S1",
+            "title": "正式员工出差申请办法（合成资料）",
+            "version_date": "2026-03-01",
+            "scope": "正式员工",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "正式员工提交出差申请，应至少提前2个工作日。",
+            "score": 0.3333
+          },
+          {
+            "doc_id": "D07",
+            "section_id": "D07-S1",
+            "title": "实习生出差申请办法（合成资料）",
+            "version_date": "2026-03-01",
+            "scope": "实习生",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "实习生提交出差申请，应至少提前5个工作日。",
+            "score": 0.3333
+          },
+          {
+            "doc_id": "D10",
+            "section_id": "D10-S1",
+            "title": "会议室预约办法（合成资料）",
+            "version_date": "2026-06-20",
+            "scope": "全体员工",
+            "priority": null,
+            "supersedes": [],
+            "snippet": "员工预约会议室，应至少提前1个工作日提交申请。",
+            "score": 0.2667
+          }
+        ],
+        "error": null
+      },
+      "next_action": "read_document"
+    },
+    {
+      "timestamp_utc": "2026-10-29T07:56:26.787676+00:00",
+      "run_id": "68c336a5-1860-403c-900e-3ee3b494ef6e",
+      "model_kind": "real_model",
+      "phase": "model",
+      "step": 2,
+      "status": "success",
+      "action": "read_document",
+      "arguments": {
+        "doc_id": "D03"
+      },
+      "call_id": "call_774b2e30e404483990f249d0"
+    },
+    {
+      "timestamp_utc": "2026-10-29T07:56:26.788683+00:00",
+      "run_id": "68c336a5-1860-403c-900e-3ee3b494ef6e",
+      "model_kind": "real_model",
+      "phase": "tool",
+      "step": 2,
+      "name": "read_document",
+      "arguments": {
+        "doc_id": "D03"
+      },
+      "status": "success",
+      "result": {
+        "status": "success",
+        "document": {
+          "doc_id": "D03",
+          "title": "正式员工休假申请办法（合成资料）",
+          "version_date": "2026-05-01",
+          "scope": "正式员工",
+          "priority": null,
+          "supersedes": [],
+          "sections": [
+            {
+              "section_id": "D03-S1",
+              "text": "正式员工申请年假，应至少提前3个工作日提交申请。"
+            }
+          ]
+        },
+        "error": null
+      },
+      "next_action": "finish"
+    },
+    {
+      "timestamp_utc": "2026-10-29T07:56:27.833953+00:00",
+      "run_id": "68c336a5-1860-403c-900e-3ee3b494ef6e",
+      "model_kind": "real_model",
+      "phase": "model",
+      "step": 3,
+      "status": "success",
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "answer": "正式员工申请年假，应至少提前3个工作日提交申请。",
+        "citations": [
+          {
+            "doc_id": "D03",
+            "section_id": "D03-S1",
+            "quote": "正式员工申请年假，应至少提前3个工作日提交申请。"
+          }
+        ],
+        "conflicts": [],
+        "missing_info": []
+      },
+      "call_id": "call_a525037bb99843febc79d275"
+    },
+    {
+      "timestamp_utc": "2026-10-29T07:56:27.834953+00:00",
+      "run_id": "68c336a5-1860-403c-900e-3ee3b494ef6e",
+      "model_kind": "real_model",
+      "phase": "finish",
+      "step": 3,
+      "arguments": {
+        "status": "completed",
+        "answer": "正式员工申请年假，应至少提前3个工作日提交申请。",
+        "citations": [
+          {
+            "doc_id": "D03",
+            "section_id": "D03-S1",
+            "quote": "正式员工申请年假，应至少提前3个工作日提交申请。"
+          }
+        ],
+        "conflicts": [],
+        "missing_info": []
+      },
+      "status": "completed",
+      "validation": "passed"
+    },
+    {
+      "timestamp_utc": "2026-10-29T07:56:27.835952+00:00",
+      "run_id": "68c336a5-1860-403c-900e-3ee3b494ef6e",
+      "model_kind": "real_model",
+      "phase": "run_end",
+      "status": "completed",
+      "decision_steps": 3,
+      "tool_calls": 2
+    }
+  ],
+  "error": null,
+  "answer": "正式员工申请年假，应至少提前3个工作日提交申请。",
+  "citations": [
+    {
+      "doc_id": "D03",
+      "section_id": "D03-S1",
+      "quote": "正式员工申请年假，应至少提前3个工作日提交申请。"
+    }
+  ],
+  "conflicts": [],
+  "missing_info": [],
+  "trace_path": "C:\\Users\\Admin\\Desktop\\研究生事务\\小影-笔试\\examples\\S01-trace.jsonl"
+}

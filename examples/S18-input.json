@@ -1,0 +1,8 @@
+{
+  "question": "月度绩效奖金如何计算？",
+  "history": [],
+  "max_steps": 8,
+  "max_tool_calls": 7,
+  "model": "deepseek-v4.1-flash-1017",
+  "setup": {}
+}

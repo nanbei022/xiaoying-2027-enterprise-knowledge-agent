@@ -1,0 +1,16 @@
+{
+  "question": "正式员工申请年假需要提前多久？",
+  "history": [],
+  "max_steps": 8,
+  "max_tool_calls": 7,
+  "model": "deepseek-v4.1-flash-1017",
+  "setup": {
+    "fault_injection": {
+      "tools": [
+        "search_documents",
+        "read_document"
+      ],
+      "mode": "persistent_error"
+    }
+  }
+}

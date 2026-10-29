@@ -1,0 +1,14 @@
+{
+  "run_id": "d7bd74b7-7e56-4b3e-bc7c-5dc0b54a273b",
+  "status": "invalid_input",
+  "proposal": null,
+  "answer": "",
+  "citations": [],
+  "conflicts": [],
+  "missing_info": [],
+  "decision_steps": 0,
+  "tool_calls": 0,
+  "trace": [],
+  "trace_path": null,
+  "error": "invalid run input"
+}

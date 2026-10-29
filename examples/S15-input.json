@@ -1,0 +1,8 @@
+{
+  "question": "会议室预约取消需要提前多久？",
+  "history": [],
+  "max_steps": 8,
+  "max_tool_calls": 7,
+  "model": "deepseek-v4.1-flash-1017",
+  "setup": {}
+}

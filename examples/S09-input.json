@@ -1,0 +1,13 @@
+{
+  "question": "办公设备故障怎么申报？",
+  "history": [],
+  "max_steps": 8,
+  "max_tool_calls": 7,
+  "model": "deepseek-v4.1-flash-1017",
+  "setup": {
+    "first_search_override": {
+      "status": "no_results",
+      "hits": []
+    }
+  }
+}

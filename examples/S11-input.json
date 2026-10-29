@@ -1,0 +1,8 @@
+{
+  "question": "实习生出差申请提前几天，还需要谁确认？",
+  "history": [],
+  "max_steps": 8,
+  "max_tool_calls": 7,
+  "model": "deepseek-v4.1-flash-1017",
+  "setup": {}
+}

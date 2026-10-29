@@ -1,0 +1,8 @@
+{
+  "question": "依据现有资料，示例剪辑器桌面版当前支持导出哪些视频格式？",
+  "history": [],
+  "max_steps": 8,
+  "max_tool_calls": 7,
+  "model": "deepseek-v4.1-flash-1017",
+  "setup": {}
+}

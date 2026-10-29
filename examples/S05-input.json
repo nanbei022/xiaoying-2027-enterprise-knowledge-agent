@@ -1,0 +1,17 @@
+{
+  "question": "实习生也一样吗？",
+  "history": [
+    {
+      "role": "user",
+      "content": "正式员工申请年假需要提前多久？"
+    },
+    {
+      "role": "assistant",
+      "content": "正式员工申请年假应至少提前3个工作日。"
+    }
+  ],
+  "max_steps": 8,
+  "max_tool_calls": 7,
+  "model": "deepseek-v4.1-flash-1017",
+  "setup": {}
+}

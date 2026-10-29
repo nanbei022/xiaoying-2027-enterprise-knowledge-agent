@@ -1,0 +1,8 @@
+{
+  "question": "实习生申请年假需要提前几天？",
+  "history": [],
+  "max_steps": 8,
+  "max_tool_calls": 7,
+  "model": "deepseek-v4.1-flash-1017",
+  "setup": {}
+}
