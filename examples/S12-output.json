@@ -338,5 +338,5 @@
   "missing_info": [
     "申请人身份：正式员工还是实习生（用于确定适用的提前期限）"
   ],
-  "trace_path": "C:\\Users\\Admin\\Desktop\\研究生事务\\小影-笔试\\examples\\S12-trace.jsonl"
+  "trace_path": "examples/S12-trace.jsonl"
 }

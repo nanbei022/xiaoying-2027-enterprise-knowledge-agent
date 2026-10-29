@@ -302,5 +302,5 @@
     "需确认你适用的制度版本/所属组织或地区（D01 与 D02 孰为适用文件）",
     "缺少能说明两份报销制度替代关系或废止状态的现行有效文件"
   ],
-  "trace_path": "C:\\Users\\Admin\\Desktop\\研究生事务\\小影-笔试\\examples\\S02-trace.jsonl"
+  "trace_path": "examples/S02-trace.jsonl"
 }

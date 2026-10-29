@@ -6,7 +6,7 @@
 uv run python examples/run_live_cases.py --all
 ~~~
 
-除 S19 外，每个场景都有三份材料：Sxx-input.json 是实际传给 Agent 的问题、历史、模型和控制设置；Sxx-output.json 是程序返回的状态、提案和完整 Trace；Sxx-trace.jsonl 是独立保存的逐步记录。S19 是空问题，在模型调用前返回 invalid_input，只有输入和输出，Trace 为空。脚本只从 data/scenarios.json 取问题、历史和受控设置，不向模型传入预期答案或验收标准。
+除 S19 外，每个场景都有三份材料：Sxx-input.json 是实际传给 Agent 的问题、历史、模型和控制设置；Sxx-output.json 是程序返回的状态、提案和完整 Trace；Sxx-trace.jsonl 是独立保存的逐步记录。输出中的 trace_path 使用相对仓库根目录的路径，克隆后仍可定位。S19 是空问题，在模型调用前返回 invalid_input，只有输入和输出，Trace 为空。脚本只从 data/scenarios.json 取问题、历史和受控设置，不向模型传入预期答案或验收标准。
 
 | 场景 | 实际状态 | 说明 |
 | --- | --- | --- |

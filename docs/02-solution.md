@@ -29,7 +29,7 @@ Trace 的每项包含运行 ID、时间、模型类型、阶段、动作及参�
 ~~~powershell
 uv sync --extra dev
 uv run --extra dev pytest -q
-uv run knowledge-agent "报销期限是多久？" --trace examples/live-trace.jsonl
+uv run knowledge-agent "报销期限是多久？" --trace logs/live-trace.jsonl
 ~~~
 
 带对话历史时，可用 --history-file 指向一个 JSON 数组，每项包含 role（user 或 assistant）和 content。无效历史由输入校验返回 invalid_input。

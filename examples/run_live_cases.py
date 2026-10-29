@@ -131,6 +131,9 @@ def main() -> int:
         )
         if result["trace_path"] is None and trace_path.exists():
             trace_path.unlink()
+        if result["trace_path"] is not None:
+            # Saved examples must remain valid after the repository is cloned elsewhere.
+            result["trace_path"] = (Path("examples") / trace_path.name).as_posix()
         output_path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"{scenario_id}: {result['status']}, steps={result['decision_steps']}, tools={result['tool_calls']}")
     return 0

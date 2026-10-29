@@ -141,5 +141,5 @@
     "适用的员工职级与出差城市/地区范围",
     "用户所指制度名称或版本，用于定位资料"
   ],
-  "trace_path": "C:\\Users\\Admin\\Desktop\\研究生事务\\小影-笔试\\examples\\S03-trace.jsonl"
+  "trace_path": "examples/S03-trace.jsonl"
 }

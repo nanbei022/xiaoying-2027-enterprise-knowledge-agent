@@ -7,6 +7,8 @@
 - Python 3.11 或更新版本
 - 安装 uv，以使用 uv.lock 中锁定的依赖
 
+在写入权限受限的 Windows 环境中，若 uv 默认缓存报“拒绝访问”，先运行 `$env:UV_CACHE_DIR = Join-Path (Get-Location) '.uv-cache'`；该目录已被 Git 忽略。
+
 ~~~powershell
 uv sync --extra dev
 ~~~
@@ -52,6 +54,7 @@ S06 是受控工具故障，S09 是首轮搜索被人为置为空结果；这些
 | docs/03-evaluation.md | 实际运行结果、人工核对与限制 |
 | docs/04-ai-usage.md | AI 辅助范围、用户决策与验证 |
 | docs/05-retrospective.md | 难点、学习和下一步 |
+| docs/06-project-overview.md | 项目整体思路与审核要点对应说明 |
 | pyproject.toml、uv.lock、.env.example | 依赖与非敏感配置样例 |
 
 自动引用校验只检查文档已读取、段落匹配及引句为原文连续子串；结论是否真正受到引文支持仍需人工判断。模型、工具和提示变更可能导致复跑结果波动，请以实际输出为准。

@@ -141,5 +141,5 @@
     "用户未说明所属部门/岗位序列、所在地区等适用范围信息",
     "缺少可检索的制度名称或文件编号，无法进一步定位原文"
   ],
-  "trace_path": "C:\\Users\\Admin\\Desktop\\研究生事务\\小影-笔试\\examples\\S18-trace.jsonl"
+  "trace_path": "examples/S18-trace.jsonl"
 }

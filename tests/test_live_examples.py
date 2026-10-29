@@ -42,7 +42,7 @@ def test_saved_trace_matches_actual_output(scenario):
 
     trace = [json.loads(line) for line in trace_path.read_text(encoding="utf-8").splitlines()]
     assert output["trace"] == trace
-    assert Path(output["trace_path"]).resolve() == trace_path.resolve()
+    assert output["trace_path"] == f"examples/{scenario_id}-trace.jsonl"
     assert trace[-1]["phase"] == "run_end"
     assert trace[-1]["status"] == output["status"]
     assert all(event["run_id"] == output["run_id"] for event in trace)
